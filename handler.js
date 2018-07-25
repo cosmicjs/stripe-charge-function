@@ -1,18 +1,7 @@
 'use strict';
-// module.exports.createCharge = (event, context, callback) => {
-//   const response = {
-//     statusCode: 200,
-//     headers: {
-//       'Access-Control-Allow-Origin': '*', // Required for CORS support to work
-//     },
-//     body: event.body
-//   };
-//   callback(null, response);
-// };
-
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
-module.exports.createCharge = (event, context, callback) => {
+module.exports.handler = (event, context, callback) => {
   const requestBody = JSON.parse(event.body);
   const token = requestBody.id;
   const amount = 10000;
