@@ -8,5 +8,16 @@
       "value": ""
     }
   ],
-  "method": "post"
+  "routes": [
+    {
+      "path": "create-charge",
+      "method": "post",
+      "cors": true
+    },
+    {
+      "path": "create-charge",
+      "method": "get",
+      "cors": true
+    }
+  }
 }
