@@ -4,7 +4,7 @@ const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 module.exports.handler = (event, context, callback) => {
   const requestBody = JSON.parse(event.body);
   const token = requestBody.id;
-  const amount = 10000;
+  const amount = requestBody.amount;
   return stripe.charges.create({ // Create Stripe charge with token
     amount,
     currency: 'usd',
