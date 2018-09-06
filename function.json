@@ -1,5 +1,5 @@
 {
-  "title": "Stripe Checkout",
+  "title": "Stripe Charge",
   "description": "Charge credit card using Stripe.",
   "image_url": "https://cosmic-s3.imgix.net/124843d0-7c94-11e8-9e7b-6d53b7000e38-stripe.png?w=1000",
   "env_vars": [
