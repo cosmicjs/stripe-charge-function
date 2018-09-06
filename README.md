@@ -13,3 +13,5 @@ git clone https://github.com/cosmicjs/stripe-charge-function
 ```
 2. Edit `test-checkout.html` to include the deployed Function endpoint and your Stripe public test key.
 3. Open `test-checkout.html` in the browser and attempt a [test charge](https://stripe.com/docs/testing).
+
+That's it! No managing or maintaining a server, just code and deploy!
