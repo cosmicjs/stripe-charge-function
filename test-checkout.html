@@ -19,15 +19,19 @@
       checkoutHandler.open({
         name: "Sample Store",
         description: "Example Purchase",
-        token: handleToken
+        token: handleToken,
+        amount: 1000
       });
     });
     function handleToken(token) {
       // ADD FUNCTION ENDPOINT HERE //
-      fetch("https://i5s4gd5p9f.execute-api.us-east-1.amazonaws.com/dev/create-charge", {
+      fetch("https://5htsfk1xlb.execute-api.us-east-1.amazonaws.com/dev/create-charge", {
         method: "POST",
         headers: {"Content-Type": "application/json"},
-        body: JSON.stringify(token)
+        body: JSON.stringify({
+          token: token,
+          amount: 1000
+        })
       })
       .then(output => {
         document.getElementById("shop").innerHTML = "<p>Purchase complete!</p>";
