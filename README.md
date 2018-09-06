@@ -6,7 +6,8 @@ Cosmic Function that enables you to charge a customer using [Stripe](https://str
 ### Deploying the Function
 1. [Login to Cosmic JS](https://cosmicjs.com) and go to Your Bucket > Settings > Functions > Example Functions
 2. Install the Stripe Charge Function
-3. Deploy the function and get your endpoints
+3. Add your STRIPE_SECRET_KEY environment variable
+4. Deploy the function and get your endpoint
 
 ### Testing the Endpoint
 1. Download code
