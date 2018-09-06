@@ -1,5 +1,5 @@
 # Stripe Charge Function
-Cosmic Function that enables you to charge a customer using Stripe.
+Cosmic Function that enables you to charge a customer using [Stripe](https://stripe.com).
 
 ### Deploying the Function
 1. [Login to Cosmic JS](https://cosmicjs.com) and go to Your Bucket > Settings > Functions > Example Functions
