@@ -1,4 +1,6 @@
 # Stripe Charge Function
+<img src="https://cosmic-s3.imgix.net/124843d0-7c94-11e8-9e7b-6d53b7000e38-stripe.png?w=1000" width="300" />
+
 Cosmic Function that enables you to charge a customer using [Stripe](https://stripe.com).
 
 ### Deploying the Function
